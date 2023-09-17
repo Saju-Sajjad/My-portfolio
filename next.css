@@ -1,0 +1,615 @@
+/* Reset and General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.938), rgba(31, 29, 29, 0.534)), url(./image/4.jpg);
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff9900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ff9900;
+}
+
+/* Hero Section */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.sec-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sec-item strong {
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sec-item p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sec-item button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sec-item button:hover {
+    background-color: #ff6600;
+}
+
+/* Works Section */
+.work-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: space-between;
+    margin: 10% 0;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.work-header {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: aqua;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.work-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(194, 24, 24, 0.5);
+    transition: transform 0.3s;
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+}
+
+.works-section-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.works-section-button button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.works-section-button button:hover {
+    background-color: #ff6600;
+}
+
+/* Service Section */
+.service-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10% 0;
+    padding: 10px;
+}
+
+.service-header {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: aqua;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.service-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-item i {
+    font-size: 70px;
+    color: #ff9900;
+    margin-bottom: 10px;
+}
+
+.service-item h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff9900;
+}
+
+.service-item p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.service-item a {
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.service-item a:hover {
+    color: #ff6600;
+}
+
+.services-section-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.services-section-button button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.services-section-button button:hover {
+    background-color: #ff6600;
+}
+
+/* About Me Section */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.about-content {
+    width: 80%;
+}
+
+/* Education and Skills Sections */
+.education,
+.skills,
+.certificates {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow
+    : 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+.education ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: left;
+    padding: 10px;
+}
+.certificates img{
+    width: 50%;
+    margin-top: 5px;
+    height: 50%;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ff9900;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section-divider {
+    height: 2px;
+    background-color: #555;
+    margin: 20px 0;
+}
+
+
+/* Skills List */
+.skills ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: left;
+    padding: 10px;
+}
+
+.skills li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #ff9900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Form Section */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff9900;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
+
+/* Font Awesome Icons */
+.fa {
+    font-size: 70px;
+    color: #ff9900;
+    transition: transform 0.3s;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+/* Hamburger Menu */
+/* Your existing CSS rules... */
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform 0.3s;
+}
+
+/* Show Hamburger Menu at 650px or Less */
+@media screen and (max-width: 650px) {
+    .navbar ul.active {
+        display: flex;
+        transition: 3s ease all;
+        flex-direction: column;
+    }
+    .section .sec-item strong{
+        font-size: 20px;
+    }
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+       
+        transform: rotate(0deg);
+    }
+}
+
+
+/* ... (Other styles) ... */
+
+/* Hamburger Icon Bars */
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: background-color 0.3s;
+}
+
+/* Hamburger Menu States */
+.hamburger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    background-color: transparent;
+}
+
+.hamburger.active .line:nth-child(2) {
+    opacity: 0;
+   
+}
+
+.hamburger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    background-color: transparent;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* ... (Other styles) ... */
+
+/* Show Navbar Menu at 768px or Less */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: none; /* Hide menu items by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust to your needs */
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    .navbar ul.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+
+    .hamburger {
+        display: flex;
+       
+        transform: rotate(0deg); /* Reset rotation */
+    }
+}
+/* Footer Section */
+.footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+/* Your existing CSS rules... */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .logo span {
+        font-size: 18px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 70px;
+       
+       
+        left: 0;
+        width: 100%;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    .navbar ul.active {
+        transform: translateY(0);
+        opacity: 1;
+        transition: 2s ease all;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+        color: black;
+        transition: 2s ease all;
+        background-color: hwb(36 3% 2%);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .section {
+        margin-top: 20%;
+        padding: 30px;
+    }
+    .section .sec-item strong{
+        font-size: 40px;
+    }
+    /* Adjustments for other sections... */
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #ff9900;
+}
+.certificates img:hover{
+    width: 60%;
+    border-radius: 10%;
+    height: 60%;
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+
+.section .sec-item strong{
+    font-size: 80px;
+}
+.section span{
+    color: #ff9900;
+}
+
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

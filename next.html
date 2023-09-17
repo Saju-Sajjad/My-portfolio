@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="saju.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo">
+            <img src="./image/s.jpg" alt="Logo" />
+            <span>sAjU</span>
+        </div>
+        <div class="navbar">
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about-container">ABOUT</a></li>
+                 <li><a href="#section-divider">Certificate</a></li>
+                <li><a href="#service-section">SERVICE</a></li>
+                <li><a href="#work-section">WORKS</a></li>
+                <li><a href="#contact-form">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="section">
+        <div class="sec-item">
+            <h3>HI</h3>
+            <strong>I'M SAJJAD <span>HUSSAIN</san></strong>
+            <p>Mern  Stack Developer</p>
+            <button>Contact</button>
+        </div>
+    </div>
+
+    <!-- Works Section -->
+    <div class="work-section " id="work-section">
+        <div class="work-header"><h1>Works</h1></div>
+        <div class="work-item"><img src="./image/html (1).png" alt="Work 1" /></div>
+        <div class="work-item"><img src="./image/html (2).png" alt="Work 2" /></div>
+        <div class="work-item"><img src="./image/html (3).png" alt="Work 3" /></div>
+        <!-- <div class="work-item"><img src="./image/git.png" alt="Work 3" /></div> -->
+        <div class="works-section-button">
+            <button>Contact</button>
+        </div>
+    </div>
+
+    <!-- Service Section -->
+    <div class="service-section" id="service-section">
+        <div class="service-header"><h1>Service</h1></div>
+        <div class="service-item">
+            <i class="fa fa-html5 fa-lg"></i>
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="service-item">
+            <i class="fa fa-css3 fa-lg"></i>
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="service-item">
+            <i class="fa fa-code fa-lg"></i>
+            <h1>JS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="service-item">
+            <i class="fa fa-code fa-lg"></i>
+            <h1>React</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="services-section-button">
+            <button>Contact</button>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="about-container" id="about-container">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <div class="section-heading">Education</div>
+            <div class="section-content">
+                <div class="education">
+                    <p>I have a little background of education</p>
+                    <p>FA,FSC BOYS DEGREE COLLAGE SKARDU</p>
+                    <p>Follow me on Social</p>
+                    <strong>Connect me on Social</strong>
+                    <ul>
+                        <li>
+                            <a href="">FACEBOOK</a>
+                        </li>
+                        <li>
+                            <a href="">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="">Github</a>
+                        </li>
+                        <li>
+                            <a href="">Instragram</a>
+                        </li>
+                        <li>
+                            <a href="">Gmail</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+            <div class="section-heading">Skills</div>
+            <div class="section-content">
+                <div class="skills">
+                    <p>Web Development</p>
+                    <p>Building an Awesome Site Using</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Github</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-divider" id="section-divider"></div>
+            <div class="section-heading">Certificates</div>
+            <div class="section-content">
+                <div class="certificates">
+                    <div class="certificate">
+                        <img class="certificate-img" src="./image/cer1.png" alt="Certificate 1">
+                    </div>
+                    <div class="certificate">
+                        <img class="certificate-img" src="./image/cer2.png" alt="Certificate 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="contact-container">
+        <div class="contact-form" id="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        &copy; code with sAjU.
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.navbar ul');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        const serviceLink = document.querySelector('a[href="#service-section"]');
+        serviceLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            const serviceSection = document.querySelector('#service-section');
+            serviceSection.scrollIntoView({ behavior: 'smooth' });
+        });
+        const workLink = document.querySelector('a[href="#work-section"]');
+        workLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            const workSection = document.querySelector('#work-section');
+            workSection.scrollIntoView({ behavior: 'smooth' });
+        });
+        const aboutLink = document.querySelector('a[href="#about-container"]');
+        aboutLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            const aboutcontainer = document.querySelector('#about-container');
+            aboutcontainer.scrollIntoView({ behavior: 'smooth' });
+        });
+        const formLink = document.querySelector('a[href="#contact-form"]');
+        formLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            const formcontainer = document.querySelector('#contact-form');
+            formcontainer.scrollIntoView({ behavior: 'smooth' });
+        });
+        const divideLink = document.querySelector('a[href="#section-divider"]');
+        divideLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default link behavior
+            const dividecontainer = document.querySelector('#section-divider');
+            dividecontainer.scrollIntoView({ behavior: 'smooth' });
+        });
+ 
+    });
+</script>
+
+
+</html>
